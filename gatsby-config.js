@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Octo Spoon's Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Octo Spoon`,
+      summary: `who lives and works in Dublin building scalable data intensive things.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `Octo Spoon`,
     },
   },
   plugins: [
@@ -105,7 +105,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "Octo Spoon's Blog RSS Feed",
           },
         ],
       },
@@ -113,7 +113,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Octo Spoon's Blog`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
