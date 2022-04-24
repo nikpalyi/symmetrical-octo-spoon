@@ -51,12 +51,12 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.586rem;
-  --color-primary: rgb(241, 90, 30);
-  --color-text: #2e353f;
+  --color-primary: rgb(240, 146, 109);
+  --color-text: #aaacaf;
   --color-text-light: #4f5969;
   --color-heading: #1a202c;
-  --color-heading-black: black;
-  --color-accent: #d1dce5;
+  --color-heading-black: rgb(234, 78, 78);
+  --color-accent: #3c4d84;
 }
 
 /* HTML elements */
@@ -70,6 +70,7 @@
 html {
   line-height: var(--lineHeight-normal);
   font-size: var(--fontSize-root);
+  background-color: var(--color-accent);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -99,6 +100,7 @@ h4,
 h5,
 h6 {
   font-family: var(--font-heading);
+  color: var(--color-primary);
   margin-top: var(--spacing-12);
   margin-bottom: var(--spacing-6);
   line-height: var(--lineHeight-tight);
